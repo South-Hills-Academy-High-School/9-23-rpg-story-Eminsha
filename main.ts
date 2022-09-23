@@ -33,7 +33,7 @@ controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     }
 })
 function createConversation () {
-    startScript = createScript("Old Man", "Boy, I could really use some rain. These plants need to hydrate! Hydration is SO IMPORTANT", 0)
+    startScript = createScript("Mr Hovo", "Its so hot i need rain", 3)
     nextPage = createScript("Cloud", "I gots some rain I could give ya, but you gotta prove that you're not going to use it for evil. How's that sound?", 0)
     blockObject.setAnyProperty(startScript, AnyProp.NextPage, nextPage)
     blockObject.setStringArrayProperty(nextPage, StrArrayProp.Choices, ["I guess that makes sense", "NONE OF YOUR GAMES CLOUD"])
